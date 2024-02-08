@@ -78,10 +78,20 @@ body{
     font-size: 16px;
 }
 
+.hero .container h1{
+    font-size: 60px;
+    line-height: 1.5;
+    max-width: 85%;
+
+}
+
 .col-40 p{
     font-size: 16px;
 }
 
+.arrow-down{
+    font-size: 40px;
+}
 /*--------------
     HEADER
 --------------*/
@@ -116,7 +126,7 @@ body{
     padding: 0px 20px;
 }
 
-.header-btn{
+.blue-btn{
     display: flex;
     background-color: #0061ff;
     color: #fff;
@@ -142,9 +152,21 @@ body{
     background-color: #b4d0e7;
 }
 
-.hero .container h1{
-    font-size: 60px;
-    line-height: 1.5;
-    max-width: 85%;
+.hero-btn{
+    margin: 34px 0px;
+}
 
+.arrow-down{
+    margin-top: 60px;
+    padding-bottom: 20px;
+}
+
+.hero .container .row{
+    position: relative;
+    bottom: -70px;
+    margin-top: 80px;
+}
+
+.hero .col-60 .jumbo-img img{
+    width: 100%;
 }
