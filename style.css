@@ -96,7 +96,7 @@ body{
 }
 
 .col-33{
-    border: 1px solid black;
+    border: 1px solid #d0d0d3;
 }
 
 .col-40 p{
@@ -215,13 +215,13 @@ body{
     align-items: center; */
 }
 
-.singolo{
+.size{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2px;
     padding: 6px 0px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #d0d0d3;
 }
 
 .plan-size h3{
