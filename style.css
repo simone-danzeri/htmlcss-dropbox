@@ -33,7 +33,7 @@
 
 .row {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     margin-left: -10px;
     margin-right: -10px;
 }
@@ -209,10 +209,8 @@ body{
     margin-bottom: 50px;
 }
 
-.plan-size{
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+.business-plan .col-33:nth-child(2){
+    margin: 0 50px;
 }
 
 .size{
@@ -249,4 +247,8 @@ body{
 .line hr{
     color: #d0d0d3;
     width: calc(100% / 4);
+}
+
+.business-plan .col-33{
+    padding-bottom: 50px;
 }
