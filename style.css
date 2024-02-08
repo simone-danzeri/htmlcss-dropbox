@@ -8,6 +8,64 @@
     box-sizing: border-box;
 }
 
+/*-------------------
+    GRID LAYOUT
+-------------------*/
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.row > * {
+    padding: 0 10px;
+}
+
+.col-20 {
+    width: 20%;
+}
+.col-25 {
+    width: 25%;
+}
+.col-30 {
+    width: 30%;
+}
+.col-40{
+    width: 40%;
+}
+.col-50 {
+    width: 50%;
+}
+.col-60{
+    width: 60%;
+}
+.col-70 {
+    width: 70%;
+}
+.col-80 {
+    width: 80%;
+}
+.col-100 {
+    width: 100%;
+}
+.col-grow {
+    flex-grow: 1;
+}
+
 /*--------------
     TYPOGRAPHY
 --------------*/
@@ -20,6 +78,9 @@ body{
     font-size: 16px;
 }
 
+.col-40 p{
+    font-size: 16px;
+}
 
 /*--------------
     HEADER
@@ -66,4 +127,24 @@ body{
 .header-button{
     display: flex;
     align-items: center;
+}
+
+/*--------------
+    MAIN
+--------------*/
+
+
+/*--------------
+    HERO
+--------------*/
+
+.hero{
+    background-color: #b4d0e7;
+}
+
+.hero .container h1{
+    font-size: 60px;
+    line-height: 1.5;
+    max-width: 85%;
+
 }
