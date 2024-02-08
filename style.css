@@ -82,6 +82,7 @@ body{
     font-size: 60px;
     line-height: 1.5;
     max-width: 85%;
+    padding-top: 60px;
 
 }
 
@@ -164,7 +165,7 @@ body{
 .hero .container .row{
     position: relative;
     bottom: -70px;
-    margin-top: 80px;
+    margin-top: 30px;
 }
 
 .hero .col-60 .jumbo-img img{
