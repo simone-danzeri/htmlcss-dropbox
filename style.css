@@ -1,9 +1,69 @@
+/*-------------
+    RESET
+-------------*/
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/*--------------
+    TYPOGRAPHY
+--------------*/
+
 body{
     font-family: 'Open Sans', sans-serif;
+}
+
+.header-links ul li , .header-btn{
+    font-size: 16px;
+}
+
+
+/*--------------
+    HEADER
+--------------*/
+
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    padding: 26px 24px;
+}
+
+.header-boxes{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.header-links{
+    display: flex;
+}
+
+.header-links ul{
+    display: flex;
+    list-style: none;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.header-links ul li{
+    padding: 0px 20px;
+}
+
+.header-btn{
+    display: flex;
+    background-color: #0061ff;
+    color: #fff;
+    border-style: none;
+    padding: 6px 8px;
+}
+
+.header-button{
+    display: flex;
+    align-items: center;
 }
