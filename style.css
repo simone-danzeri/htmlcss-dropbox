@@ -153,6 +153,10 @@ body{
 }
 
 .arrow-down{
+
+}
+
+.arrow-down i{
     font-size: 40px;
 }
 
@@ -244,8 +248,7 @@ header{
 }
 
 .arrow-down{
-    margin-top: 60px;
-    padding-bottom: 20px;
+    padding: 40px 0px;
 }
 
 .hero .container .row{
