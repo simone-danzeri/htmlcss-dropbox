@@ -148,6 +148,11 @@ body{
     padding-right: 4px;
 }
 
+.db-business h2{
+    font-size: 26px;
+    color: #61082b;
+}
+
 /*--------------
     HEADER
 --------------*/
@@ -363,3 +368,31 @@ header{
 .operation-last-h2{
     max-width: 40%;
 }
+
+
+/*-------------------------
+    FREE TRIAL
+-------------------------*/
+
+.free-trial{
+    background-color: #b4d0e7;
+}
+
+.free-trial .col-70 {
+    padding-left: 0px;
+}
+
+.free-trial .col-70 .db-business{
+    margin-top: 130px;
+}
+
+.free-trial .col-30 .free-trial-btn{
+    margin-top: 130px;
+}
+
+.ft-btn{
+    background-color: #fff;
+    color: black;
+    padding: 14px 18px;
+}
+
