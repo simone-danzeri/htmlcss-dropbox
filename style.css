@@ -337,3 +337,30 @@ header{
     padding-top: 30px;
     padding-bottom: 34px;
 }
+
+/*-------------------------
+    OPERAZIONI CON DROPBOX
+-------------------------*/
+
+.operation .small-container{
+    padding-left: 0px;
+}
+
+.operation .small-container h2{
+    margin-top: 160px;
+    margin-bottom: 80px;
+    font-size: 26px;
+}
+
+.operation .col-33{
+    border: none;
+}
+
+.operation .row{
+    margin-top: 68px;
+}
+
+.operation-last-h2{
+    max-width: 40%;
+}
+
