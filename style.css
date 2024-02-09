@@ -6,6 +6,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
 }
 
 /*-------------------
@@ -139,7 +141,12 @@ body{
 /*--------------
     HEADER
 --------------*/
-
+header{
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 1000;
+}
 
 .header-container{
     display: flex;
@@ -290,3 +297,29 @@ body{
     ENTRA IN CONTATTO CON PARTNER
 -------------------------------*/
 
+.col-60 img{
+    width: 100%;
+}
+
+.contact-partner .col-60{
+    padding-left: 0px;
+}
+
+.contact-partner .col-40 button{
+    background-color: #fff;
+    border: 1px solid black;
+    padding: 14px 18px;
+}
+
+.contact-partner .row{
+    margin-top: 140px;
+}
+
+.contact-partner .col-40{
+    padding-top: 60px;
+}
+
+.contact-partner .col-40 p{
+    padding-top: 30px;
+    padding-bottom: 34px;
+}
