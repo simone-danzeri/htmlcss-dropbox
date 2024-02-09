@@ -97,6 +97,7 @@ body{
 
 .col-20{
     border: 1px solid #d0d0d3;
+    border-left: none;
 }
 
 .col-33{
@@ -109,6 +110,7 @@ body{
 
 .col-80{
     border: 1px solid #d0d0d3;
+    border-right: none;
 }
 
 
@@ -283,3 +285,8 @@ body{
 .col-100{
     margin-top: 50px;
 }
+
+/*-------------------------------
+    ENTRA IN CONTATTO CON PARTNER
+-------------------------------*/
+
