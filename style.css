@@ -121,8 +121,12 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 10px;
-    padding-right: 10px;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+}
+
+.business-card{
+    padding: 0px 12px;
 }
 
 .col-40 p{
@@ -214,7 +218,7 @@ header{
     background-color: #0061ff;
     color: #fff;
     border-style: none;
-    padding: 6px 8px;
+    padding: 14px 18px;
 }
 
 .header-button{
@@ -293,10 +297,11 @@ header{
 .plan-size ul{
     list-style: none;
     margin-top: 56px;
+    min-height: 200px;
 }
 
 .plan-size ul li{
-    padding: 4px 0px;
+    padding: 6px 0px;
 }
 
 .line{
@@ -327,6 +332,16 @@ header{
 .last-p{
     padding-top: 60px;
     padding-bottom: 34px;
+}
+
+.business-plan .col-70{
+    border-left: 1px solid #d0d0d3;
+    border-bottom: 1px solid #d0d0d3;
+}
+
+.business-plan .col-30{
+    border-bottom: 1px solid #d0d0d3;
+    border-right: 1px solid #d0d0d3;
 }
 
 /*-------------------------------
