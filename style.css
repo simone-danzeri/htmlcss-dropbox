@@ -104,6 +104,16 @@ body{
 
 .col-33{
     border: 1px solid #d0d0d3;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.plan-size{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .col-40 p{
@@ -286,11 +296,15 @@ header{
 
 .team{
     width: 100%;
-    
 }
 
 .col-100{
     margin-top: 50px;
+}
+
+.last-p{
+    padding-top: 60px;
+    padding-bottom: 34px;
 }
 
 /*-------------------------------
