@@ -95,12 +95,34 @@ body{
     padding-top: 60px;
 }
 
+.col-20{
+    border: 1px solid #d0d0d3;
+}
+
 .col-33{
     border: 1px solid #d0d0d3;
 }
 
 .col-40 p{
     font-size: 16px;
+}
+
+.col-80{
+    border: 1px solid #d0d0d3;
+}
+
+
+.col-100{
+    border: 1px solid #d0d0d3;
+}
+
+
+.col-100 .size{
+    border-bottom: none;
+}
+
+.pippo{
+    border-bottom: none;
 }
 
 .arrow-down{
@@ -256,4 +278,8 @@ body{
 .team{
     width: 100%;
     
+}
+
+.col-100{
+    margin-top: 50px;
 }
