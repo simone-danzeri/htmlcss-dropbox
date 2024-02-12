@@ -304,7 +304,9 @@ header{
 }
 
 .plan-size ul li{
+    display: flex;
     padding: 6px 0px;
+    gap: 4px;
 }
 
 .line{
