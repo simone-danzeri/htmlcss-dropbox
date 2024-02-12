@@ -404,6 +404,9 @@ header{
     max-width: 40%;
 }
 
+.operation .col-33 p{
+   max-width: 80%;
+}
 
 
 
