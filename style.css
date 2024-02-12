@@ -447,28 +447,28 @@ header{
 }
 
 .designit img{
-    width: 125px;
+    max-width: 125px;
 }
 .designit{
     background-color: #A2D39B;
 }
 
 .asu img{
-    width: 125px;
+    max-width: 125px;
 }
 .asu{
     background-color: #61082B;
 }
 
 .uf img{
-    width: 125px;
+    max-width: 125px;
 }
 .uf{
     background-color: #0093CE;
 }
 
 .topps img{
-    width: 125px;
+    max-width: 125px;
 }
 .topps{
     background-color: #FF1C1C;
@@ -476,28 +476,28 @@ header{
 
 
 .wbr img{
-    width: 125px;
+    max-width: 125px;
 }
 .wbr{
     background-color: #D5001F;
 }
 
 .hearst img{
-    width: 150px;
+    max-width: 150px;
 }
 .hearst{
     background-color: #B4D0E7;
 }
 
 .lp img{
-    width: 125px;
+    max-width: 125px;
 }
 .lp{
     background-color: #0D2481;
 }
 
 .cco img{
-    width: 125px;
+    max-width: 125px;
 }
 .cco{
     background-color: #FFD830;
@@ -511,9 +511,6 @@ header{
     overflow-y: auto;
 }
 
-.big_content_square::-webkit-scrollbar {
-    display: none;
-  }
 
 .big-square-indoor{
     width: 90%;
